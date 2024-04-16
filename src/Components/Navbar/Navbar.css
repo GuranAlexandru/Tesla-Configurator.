@@ -1,0 +1,16 @@
+.navbar {
+    border-bottom: 1px solid #676767;
+}
+
+.logo-cart {
+    width: 25px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.container img {
+    width: 150px;
+    padding: 5px 0;
+}

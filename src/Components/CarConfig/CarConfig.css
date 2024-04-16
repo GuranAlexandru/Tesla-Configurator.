@@ -1,0 +1,188 @@
+.car-config {
+  border-left: 1px solid grey;
+  padding: 0 20px;
+}
+
+.car-models {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.car-model {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 250px;
+  border: 2px solid grey;
+  margin-bottom: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  p {
+    margin-bottom: 0;
+    padding: 5px 0;
+  }
+}
+
+.white,
+.black,
+.silver,
+.blue,
+.red {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  border-radius: 50px;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.color-settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.wheel-settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option-wheel {
+  margin: 5px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+
+  .wheel-img {
+    width: 100px;
+    padding: 5px;
+  }
+}
+.details-wheel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.config {
+  padding-bottom: 20px;
+}
+
+.white {
+  background: #fff;
+}
+
+.black {
+  background: linear-gradient(
+    to bottom right,
+    #fff 0,
+    #fcfcfc 0.3%,
+    #f3f3f3 1.4%,
+    #e4e4e4 3.2%,
+    #d2d2d2 5.8%,
+    #bdbdbd 9.3%,
+    #a5a5a5 13.6%,
+    #8c8c8c 18.9%,
+    #737373 25.1%,
+    #5a5a5a 32.4%,
+    #424242 40.7%,
+    #2d2d2d 50.2%,
+    #1b1b1b 60.8%,
+    #0c0c0c 72.6%,
+    #030303 85.7%,
+    #000
+  );
+}
+
+.silver {
+  background: linear-gradient(
+    to bottom right,
+    #fff 0,
+    #fcfcfc 0.3%,
+    #f4f4f5 1.4%,
+    #e7e8ea 3.2%,
+    #d6d9db 5.8%,
+    #c2c6ca 9.3%,
+    #adb2b7 13.6%,
+    #969ca3 18.9%,
+    #7e878e 25.1%,
+    #67717a 32.4%,
+    #525d67 40.7%,
+    #3e4a56 50.2%,
+    #2d3b47 60.8%,
+    #202f3c 72.6%,
+    #182735 85.7%,
+    #152432
+  );
+}
+
+.blue {
+  background: linear-gradient(
+    to bottom right,
+    #fff 0,
+    #fcfcfe 0.3%,
+    #f3f5fb 1.4%,
+    #e4e9f6 3.2%,
+    #d2dbf0 5.8%,
+    #bdc9e8 9.3%,
+    #a5b6e0 13.6%,
+    #8ca2d8 18.9%,
+    #738dcf 25.1%,
+    #5a79c7 32.4%,
+    #4266bf 40.7%,
+    #2d54b7 50.2%,
+    #1b46b1 60.8%,
+    #0c3aac 72.6%,
+    #0333a9 85.7%,
+    #0030a8
+  );
+}
+
+.red {
+  background: linear-gradient(
+    to bottom right,
+    #fff 0,
+    #fefcfc 0.3%,
+    #fcf3f3 1.4%,
+    #f8e6e6 3.2%,
+    #f3d5d5 5.8%,
+    #edc2c2 9.3%,
+    #e7acac 13.6%,
+    #e09494 18.9%,
+    #d97d7d 25.1%,
+    #d26565 32.4%,
+    #cc4f4f 40.7%,
+    #c63c3c 50.2%,
+    #c12b2b 60.8%,
+    #bd1e1e 72.6%,
+    #bb1515 85.7%,
+    #ba1212
+  );
+}
+
+.select-pb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+  h2 {
+    font-size: 20px;
+  }
+}
