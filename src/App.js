@@ -17,7 +17,7 @@ function App() {
   const [range, setRange] = useState(513);
   const [inch, setInch] = useState("18″ Aero Wheels");
   const [priceInch, setPriceInch] = useState("Included");
-  const [paint, setPaint] = useState("Pearl White Multi-Coat");
+  const [paint, setPaint] = useState("Pearl White");
   const [pricePaint, setPricePaint] = useState("Included");
   const [priceCar, setPriceCar] = useState("44000");
 
