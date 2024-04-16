@@ -40,7 +40,7 @@ const CarConfig = ({
       // setPriceCar(priceTesla.model.Three.price)
       if (color === "white") {
         setCurrentPhoto(tesla.model.Three.color.white.wheel.model_1);
-        setPaint("Pearl White Multi-Coat");
+        setPaint("Pearl White");
         setPricePaint("Included");
         if (wheelModel === "model_1") {
           setCurrentPhoto(tesla.model.Three.color.white.wheel.model_1);
@@ -130,7 +130,7 @@ const CarConfig = ({
       // setPriceCar(priceTesla.model.S.price)
       if (color === "white") {
         setCurrentPhoto(tesla.model.S.color.white.wheel.model_1);
-        setPaint("Pearl White Multi-Coat");
+        setPaint("Pearl White");
         setPricePaint("Included");
         if (wheelModel === "model_1") {
           setCurrentPhoto(tesla.model.S.color.white.wheel.model_1);
@@ -139,7 +139,7 @@ const CarConfig = ({
         }
         if (wheelModel === "model_2") {
           setCurrentPhoto(tesla.model.S.color.white.wheel.model_2);
-          setInch("21\u2033 Sonic Carbon Wheels");
+          setInch("21\u2033 Sonic Wheels");
           setPriceInch("3500");
         }
       }
@@ -155,7 +155,7 @@ const CarConfig = ({
         }
         if (wheelModel === "model_2") {
           setCurrentPhoto(tesla.model.S.color.black.wheel.model_2);
-          setInch("21\u2033 Sonic Carbon Wheels");
+          setInch("21\u2033 Sonic Wheels");
           setPriceInch("3500");
         }
       }
@@ -171,7 +171,7 @@ const CarConfig = ({
         }
         if (wheelModel === "model_2") {
           setCurrentPhoto(tesla.model.S.color.silver.wheel.model_2);
-          setInch("21\u2033 Sonic Carbon Wheels");
+          setInch("21\u2033 Sonic Wheels");
           setPriceInch("3500");
         }
       }
@@ -187,7 +187,7 @@ const CarConfig = ({
         }
         if (wheelModel === "model_2") {
           setCurrentPhoto(tesla.model.S.color.blue.wheel.model_2);
-          setInch("21\u2033 Sonic Carbon Wheels");
+          setInch("21\u2033 Sonic Wheels");
           setPriceInch("3500");
         }
       }
@@ -203,7 +203,7 @@ const CarConfig = ({
         }
         if (wheelModel === "model_2") {
           setCurrentPhoto(tesla.model.S.color.red.wheel.model_2);
-          setInch("21\u2033 Sonic Carbon Wheels");
+          setInch("21\u2033 Sonic Wheels");
           setPriceInch("3500");
         }
       }
@@ -220,7 +220,7 @@ const CarConfig = ({
       // setPriceCar(priceTesla.model.X.price)
       if (color === "white") {
         setCurrentPhoto(tesla.model.X.color.white.wheel.model_1);
-        setPaint("Pearl White Multi-Coat");
+        setPaint("Pearl White");
         setPricePaint("Included");
         if (wheelModel === "model_1") {
           setCurrentPhoto(tesla.model.X.color.white.wheel.model_1);
@@ -310,7 +310,7 @@ const CarConfig = ({
       // setPriceCar(priceTesla.model.Y.price)
       if (color === "white") {
         setCurrentPhoto(tesla.model.Y.color.white.wheel.model_1);
-        setPaint("Pearl White Multi-Coat");
+        setPaint("Pearl White");
         setPricePaint("Included");
         if (wheelModel === "model_1") {
           setCurrentPhoto(tesla.model.Y.color.white.wheel.model_1);
@@ -432,7 +432,7 @@ const CarConfig = ({
           <div className="option-color">
             <div
               class="white "
-              title="Pearl White Multi-Coat"
+              title="Pearl White"
               onClick={() => setColor("white")}
             ></div>
           </div>
