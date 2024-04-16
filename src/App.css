@@ -33,4 +33,10 @@
   .car-config {
     margin-top: 30px;
   }
+  .navbar .container {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
 }
